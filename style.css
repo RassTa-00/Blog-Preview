@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Fig";
+    src: url("font/Figtree-VariableFont_wght.ttf");
+}
+
+body{
+    font-family: "Fig";
+    background-color: #F6D050;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    width: 380px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px;
+    background-color: white;
+    padding: 25px;
+
+}
+.illustrationImg{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 370px;
+}
+.content{
+    margin-top: 20px;
+    padding: 5px;
+}
+.learning{
+    display: block;
+    font-weight: 900;
+    width: 90px;
+    border-radius: 5px;
+    height: 32px;
+    background-color: #f7c41b;
+    position: relative;
+    border: none;
+    box-shadow: 2px 2px;
+}
+.learning:hover{
+    box-shadow: none;
+}
+.publishDate{
+    margin:20px 0 20px 0 ;
+    font-weight: 600;
+    font-size: 16px;
+}
+.title{
+    font-weight: 900;
+    font-size: 26px;
+}
+.text{
+    line-height: 25px;
+    margin: 20px 0 20px 0;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(76, 75, 75, 0.65);
+}
+.greg{
+    width: 40px;
+}
+.name{
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+    font-weight: 900;
+    font-size: 18px;
+}
+.attribution { font-size: 11px; text-align: center;
+position: absolute;
+bottom: 0;
+left: 0; }
+.attribution a { color: hsl(228, 45%, 44%); }
